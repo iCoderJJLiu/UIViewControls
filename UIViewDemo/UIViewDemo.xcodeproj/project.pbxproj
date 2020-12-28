@@ -16,6 +16,8 @@
 		28DAEB3225999516007E7D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB3125999516007E7D6A /* main.m */; };
 		28DAEB3C25999516007E7D6A /* UIViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB3B25999516007E7D6A /* UIViewDemoTests.m */; };
 		28DAEB4725999516007E7D6A /* UIViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB4625999516007E7D6A /* UIViewDemoUITests.m */; };
+		28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB5825999B4D007E7D6A /* UILabelVC.m */; };
+		28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		28DAEB4225999516007E7D6A /* UIViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DAEB4625999516007E7D6A /* UIViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewDemoUITests.m; sourceTree = "<group>"; };
 		28DAEB4825999516007E7D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28DAEB5725999B4D007E7D6A /* UILabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabelVC.h; sourceTree = "<group>"; };
+		28DAEB5825999B4D007E7D6A /* UILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelVC.m; sourceTree = "<group>"; };
+		28DAEB5D2599CD6F007E7D6A /* UIPickerViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPickerViewVC.h; sourceTree = "<group>"; };
+		28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				28DAEB2325999515007E7D6A /* SceneDelegate.m */,
 				28DAEB2525999515007E7D6A /* ViewController.h */,
 				28DAEB2625999515007E7D6A /* ViewController.m */,
+				28DAEB5725999B4D007E7D6A /* UILabelVC.h */,
+				28DAEB5825999B4D007E7D6A /* UILabelVC.m */,
+				28DAEB5D2599CD6F007E7D6A /* UIPickerViewVC.h */,
+				28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */,
 				28DAEB2825999515007E7D6A /* Main.storyboard */,
 				28DAEB2B25999516007E7D6A /* Assets.xcassets */,
 				28DAEB2D25999516007E7D6A /* LaunchScreen.storyboard */,
@@ -268,8 +278,10 @@
 			files = (
 				28DAEB2725999515007E7D6A /* ViewController.m in Sources */,
 				28DAEB2125999515007E7D6A /* AppDelegate.m in Sources */,
+				28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */,
 				28DAEB3225999516007E7D6A /* main.m in Sources */,
 				28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */,
+				28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
