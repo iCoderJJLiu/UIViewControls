@@ -18,6 +18,8 @@
 		28DAEB4725999516007E7D6A /* UIViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB4625999516007E7D6A /* UIViewDemoUITests.m */; };
 		28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB5825999B4D007E7D6A /* UILabelVC.m */; };
 		28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */; };
+		28DAEB6E259AD68A007E7D6A /* UISlider_UIProgressView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */; };
+		28DAEB74259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		28DAEB5825999B4D007E7D6A /* UILabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelVC.m; sourceTree = "<group>"; };
 		28DAEB5D2599CD6F007E7D6A /* UIPickerViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPickerViewVC.h; sourceTree = "<group>"; };
 		28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerViewVC.m; sourceTree = "<group>"; };
+		28DAEB6C259AD68A007E7D6A /* UISlider_UIProgressView_VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISlider_UIProgressView_VC.h; sourceTree = "<group>"; };
+		28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISlider_UIProgressView_VC.m; sourceTree = "<group>"; };
+		28DAEB72259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAlertAction_UIActivityIndicatorVC.h; sourceTree = "<group>"; };
+		28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertAction_UIActivityIndicatorVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +126,10 @@
 				28DAEB5825999B4D007E7D6A /* UILabelVC.m */,
 				28DAEB5D2599CD6F007E7D6A /* UIPickerViewVC.h */,
 				28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */,
+				28DAEB6C259AD68A007E7D6A /* UISlider_UIProgressView_VC.h */,
+				28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */,
+				28DAEB72259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.h */,
+				28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */,
 				28DAEB2825999515007E7D6A /* Main.storyboard */,
 				28DAEB2B25999516007E7D6A /* Assets.xcassets */,
 				28DAEB2D25999516007E7D6A /* LaunchScreen.storyboard */,
@@ -276,9 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28DAEB6E259AD68A007E7D6A /* UISlider_UIProgressView_VC.m in Sources */,
 				28DAEB2725999515007E7D6A /* ViewController.m in Sources */,
 				28DAEB2125999515007E7D6A /* AppDelegate.m in Sources */,
 				28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */,
+				28DAEB74259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m in Sources */,
 				28DAEB3225999516007E7D6A /* main.m in Sources */,
 				28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */,
 				28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */,

@@ -8,6 +8,7 @@
 #import "ViewController.h"
 #import "UILabelVC.h"
 #import "UIPickerViewVC.h"
+#import "UISlider_UIProgressView_VC.h"
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) UITableView *homeTableView;
@@ -24,8 +25,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _cellTextArray = [[NSMutableArray alloc] initWithObjects:@"UILable相关",@"UIPickerViewVC相关", nil];
-    _viewNameArray = [[NSMutableArray alloc] initWithObjects:@"UILabelVC",@"UIPickerViewVC", nil];
+    _cellTextArray = [[NSMutableArray alloc] initWithObjects:@"UILable相关",@"UIPickerViewVC相关",@"UISlider_UIProgressView相关",@"UIAlertAction_UIActivityIndicator相关", nil];
+    _viewNameArray = [[NSMutableArray alloc] initWithObjects:@"UILabelVC",@"UIPickerViewVC",@"UISlider_UIProgressView_VC",@"UIAlertAction_UIActivityIndicatorVC",nil];
     
     // 创建主界面
     _homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
