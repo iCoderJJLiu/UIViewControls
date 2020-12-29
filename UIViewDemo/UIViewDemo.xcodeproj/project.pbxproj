@@ -20,6 +20,7 @@
 		28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB5E2599CD6F007E7D6A /* UIPickerViewVC.m */; };
 		28DAEB6E259AD68A007E7D6A /* UISlider_UIProgressView_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */; };
 		28DAEB74259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */; };
+		28DAEB86259B1046007E7D6A /* UITabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB85259B1046007E7D6A /* UITabBarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISlider_UIProgressView_VC.m; sourceTree = "<group>"; };
 		28DAEB72259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIAlertAction_UIActivityIndicatorVC.h; sourceTree = "<group>"; };
 		28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIAlertAction_UIActivityIndicatorVC.m; sourceTree = "<group>"; };
+		28DAEB84259B1046007E7D6A /* UITabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITabBarVC.h; sourceTree = "<group>"; };
+		28DAEB85259B1046007E7D6A /* UITabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				28DAEB6D259AD68A007E7D6A /* UISlider_UIProgressView_VC.m */,
 				28DAEB72259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.h */,
 				28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */,
+				28DAEB84259B1046007E7D6A /* UITabBarVC.h */,
+				28DAEB85259B1046007E7D6A /* UITabBarVC.m */,
 				28DAEB2825999515007E7D6A /* Main.storyboard */,
 				28DAEB2B25999516007E7D6A /* Assets.xcassets */,
 				28DAEB2D25999516007E7D6A /* LaunchScreen.storyboard */,
@@ -292,6 +297,7 @@
 				28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */,
 				28DAEB74259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m in Sources */,
 				28DAEB3225999516007E7D6A /* main.m in Sources */,
+				28DAEB86259B1046007E7D6A /* UITabBarVC.m in Sources */,
 				28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */,
 				28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */,
 			);
