@@ -24,6 +24,9 @@
 		28DAEBA0259B4B22007E7D6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB9F259B4B22007E7D6A /* AppDelegate.m */; };
 		28DAEBC8259C6D71007E7D6A /* UITableView_SDWebImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEBB7259C50D0007E7D6A /* UITableView_SDWebImageView.m */; };
 		28DAEBD4259C6EB3007E7D6A /* MovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEBD3259C6EB3007E7D6A /* MovieModel.m */; };
+		28DAEBDD25A053B1007E7D6A /* UIScrollView_UITextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEBDC25A053B1007E7D6A /* UIScrollView_UITextViewVC.m */; };
+		28DAEBE325A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEBE225A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m */; };
+		28DAEBEB25A06C5A007E7D6A /* UISearchBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEBEA25A06C5A007E7D6A /* UISearchBarVC.m */; };
 		F1B5AC9EB16F5EB7F721EFEA /* libPods-UIViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E50C458FFC983ED0C0A17A21 /* libPods-UIViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +82,12 @@
 		28DAEBB7259C50D0007E7D6A /* UITableView_SDWebImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableView_SDWebImageView.m; sourceTree = "<group>"; };
 		28DAEBD2259C6EB3007E7D6A /* MovieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieModel.h; sourceTree = "<group>"; };
 		28DAEBD3259C6EB3007E7D6A /* MovieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieModel.m; sourceTree = "<group>"; };
+		28DAEBDB25A053B1007E7D6A /* UIScrollView_UITextViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIScrollView_UITextViewVC.h; sourceTree = "<group>"; };
+		28DAEBDC25A053B1007E7D6A /* UIScrollView_UITextViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_UITextViewVC.m; sourceTree = "<group>"; };
+		28DAEBE125A066E6007E7D6A /* UIScrollView+modifyTouchMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+modifyTouchMethod.h"; sourceTree = "<group>"; };
+		28DAEBE225A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+modifyTouchMethod.m"; sourceTree = "<group>"; };
+		28DAEBE925A06C5A007E7D6A /* UISearchBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISearchBarVC.h; sourceTree = "<group>"; };
+		28DAEBEA25A06C5A007E7D6A /* UISearchBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISearchBarVC.m; sourceTree = "<group>"; };
 		4826DE471BAE8C67D7FE0D92 /* Pods-UIViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewDemo.debug.xcconfig"; path = "Target Support Files/Pods-UIViewDemo/Pods-UIViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A649D9E2CFA618E0CD8FF3DF /* Pods-UIViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIViewDemo.release.xcconfig"; path = "Target Support Files/Pods-UIViewDemo/Pods-UIViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E50C458FFC983ED0C0A17A21 /* libPods-UIViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +160,12 @@
 				28DAEB73259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m */,
 				28DAEB84259B1046007E7D6A /* UITabBarVC.h */,
 				28DAEB85259B1046007E7D6A /* UITabBarVC.m */,
+				28DAEBDB25A053B1007E7D6A /* UIScrollView_UITextViewVC.h */,
+				28DAEBDC25A053B1007E7D6A /* UIScrollView_UITextViewVC.m */,
+				28DAEBE925A06C5A007E7D6A /* UISearchBarVC.h */,
+				28DAEBEA25A06C5A007E7D6A /* UISearchBarVC.m */,
+				28DAEBE125A066E6007E7D6A /* UIScrollView+modifyTouchMethod.h */,
+				28DAEBE225A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m */,
 				28DAEB96259B4AF4007E7D6A /* UINavigationVC.h */,
 				28DAEB97259B4AF4007E7D6A /* UINavigationVC.m */,
 				28DAEBB6259C50D0007E7D6A /* UITableView_SDWebImageView.h */,
@@ -357,6 +372,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DAEB6E259AD68A007E7D6A /* UISlider_UIProgressView_VC.m in Sources */,
+				28DAEBDD25A053B1007E7D6A /* UIScrollView_UITextViewVC.m in Sources */,
+				28DAEBE325A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m in Sources */,
 				28DAEBC8259C6D71007E7D6A /* UITableView_SDWebImageView.m in Sources */,
 				28DAEB98259B4AF4007E7D6A /* UINavigationVC.m in Sources */,
 				28DAEB2725999515007E7D6A /* ViewController.m in Sources */,
@@ -366,6 +383,7 @@
 				28DAEB74259AE372007E7D6A /* UIAlertAction_UIActivityIndicatorVC.m in Sources */,
 				28DAEB3225999516007E7D6A /* main.m in Sources */,
 				28DAEB86259B1046007E7D6A /* UITabBarVC.m in Sources */,
+				28DAEBEB25A06C5A007E7D6A /* UISearchBarVC.m in Sources */,
 				28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */,
 				28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */,
 			);
