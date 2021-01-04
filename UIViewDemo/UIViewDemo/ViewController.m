@@ -25,8 +25,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
-    _cellTextArray = [[NSMutableArray alloc] initWithObjects:@"UILable相关",@"UIPickerViewVC相关",@"UISlider_UIProgressView相关",@"UIAlertAction_UIActivityIndicator相关",@"UITabBar相关",@"UINavigation_UITableViewCell相关",@"tableView网络请求相关",@"UIScrollView_UITextView相关",@"UISearchBar相关", nil];
-    _viewNameArray = [[NSMutableArray alloc] initWithObjects:@"UILabelVC",@"UIPickerViewVC",@"UISlider_UIProgressView_VC",@"UIAlertAction_UIActivityIndicatorVC",@"UITabBarVC",@"UINavigationVC",@"UITableView_SDWebImageView",@"UIScrollView_UITextViewVC",@"UISearchBarVC", nil];
+    _cellTextArray = [[NSMutableArray alloc] initWithObjects:@"UILable相关",@"UIPickerViewVC相关",@"UISlider_UIProgressView相关",@"UIAlertAction_UIActivityIndicator相关",@"UITabBar相关",@"UINavigation_UITableViewCell相关",@"tableView网络请求相关",@"UIScrollView_UITextView相关",@"UISearchBar相关",@"UIDatePicker相关",@"UIPageControl相关",@"UISegmentedControl相关", nil];
+    _viewNameArray = [[NSMutableArray alloc] initWithObjects:@"UILabelVC",@"UIPickerViewVC",@"UISlider_UIProgressView_VC",@"UIAlertAction_UIActivityIndicatorVC",@"UITabBarVC",@"UINavigationVC",@"UITableView_SDWebImageView",@"UIScrollView_UITextViewVC",@"UISearchBarVC",@"UIDatePickerVC",@"UIPageControlVC",@"UISegmentedControlVC", nil];
     
     // 创建主界面
     _homeTableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];

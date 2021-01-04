@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280A35F125A2DDD0000B33EE /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A35F025A2DDD0000B33EE /* PageView.m */; };
+		280A35F725A2DE0C000B33EE /* UIPageControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A35F625A2DE0C000B33EE /* UIPageControlVC.m */; };
+		280A360925A2F8B0000B33EE /* UISegmentedControlVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 280A360825A2F8B0000B33EE /* UISegmentedControlVC.m */; };
+		28927EF025A2C2D000E932B1 /* UIDatePickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28927EEF25A2C2D000E932B1 /* UIDatePickerVC.m */; };
 		28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB2325999515007E7D6A /* SceneDelegate.m */; };
 		28DAEB2725999515007E7D6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DAEB2625999515007E7D6A /* ViewController.m */; };
 		28DAEB2A25999515007E7D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DAEB2825999515007E7D6A /* Main.storyboard */; };
@@ -48,6 +52,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		280A35EF25A2DDD0000B33EE /* PageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageView.h; sourceTree = "<group>"; };
+		280A35F025A2DDD0000B33EE /* PageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageView.m; sourceTree = "<group>"; };
+		280A35F525A2DE0C000B33EE /* UIPageControlVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIPageControlVC.h; sourceTree = "<group>"; };
+		280A35F625A2DE0C000B33EE /* UIPageControlVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPageControlVC.m; sourceTree = "<group>"; };
+		280A360725A2F8B0000B33EE /* UISegmentedControlVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISegmentedControlVC.h; sourceTree = "<group>"; };
+		280A360825A2F8B0000B33EE /* UISegmentedControlVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISegmentedControlVC.m; sourceTree = "<group>"; };
+		28927EEE25A2C2D000E932B1 /* UIDatePickerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDatePickerVC.h; sourceTree = "<group>"; };
+		28927EEF25A2C2D000E932B1 /* UIDatePickerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDatePickerVC.m; sourceTree = "<group>"; };
 		28DAEB1C25999515007E7D6A /* UIViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DAEB1F25999515007E7D6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		28DAEB2225999515007E7D6A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -119,6 +131,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		280A35EE25A2DD91000B33EE /* UIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				280A35EF25A2DDD0000B33EE /* PageView.h */,
+				280A35F025A2DDD0000B33EE /* PageView.m */,
+				280A35F525A2DE0C000B33EE /* UIPageControlVC.h */,
+				280A35F625A2DE0C000B33EE /* UIPageControlVC.m */,
+			);
+			path = UIPageControl;
+			sourceTree = "<group>";
+		};
 		28DAEB1325999515007E7D6A = {
 			isa = PBXGroup;
 			children = (
@@ -144,12 +167,15 @@
 		28DAEB1E25999515007E7D6A /* UIViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				280A35EE25A2DD91000B33EE /* UIPageControl */,
 				28DAEB1F25999515007E7D6A /* AppDelegate.h */,
 				28DAEB9F259B4B22007E7D6A /* AppDelegate.m */,
 				28DAEB2225999515007E7D6A /* SceneDelegate.h */,
 				28DAEB2325999515007E7D6A /* SceneDelegate.m */,
 				28DAEB2525999515007E7D6A /* ViewController.h */,
 				28DAEB2625999515007E7D6A /* ViewController.m */,
+				280A360725A2F8B0000B33EE /* UISegmentedControlVC.h */,
+				280A360825A2F8B0000B33EE /* UISegmentedControlVC.m */,
 				28DAEB5725999B4D007E7D6A /* UILabelVC.h */,
 				28DAEB5825999B4D007E7D6A /* UILabelVC.m */,
 				28DAEB5D2599CD6F007E7D6A /* UIPickerViewVC.h */,
@@ -168,6 +194,8 @@
 				28DAEBE225A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m */,
 				28DAEB96259B4AF4007E7D6A /* UINavigationVC.h */,
 				28DAEB97259B4AF4007E7D6A /* UINavigationVC.m */,
+				28927EEE25A2C2D000E932B1 /* UIDatePickerVC.h */,
+				28927EEF25A2C2D000E932B1 /* UIDatePickerVC.m */,
 				28DAEBB6259C50D0007E7D6A /* UITableView_SDWebImageView.h */,
 				28DAEBB7259C50D0007E7D6A /* UITableView_SDWebImageView.m */,
 				28DAEBD2259C6EB3007E7D6A /* MovieModel.h */,
@@ -376,6 +404,7 @@
 				28DAEBE325A066E6007E7D6A /* UIScrollView+modifyTouchMethod.m in Sources */,
 				28DAEBC8259C6D71007E7D6A /* UITableView_SDWebImageView.m in Sources */,
 				28DAEB98259B4AF4007E7D6A /* UINavigationVC.m in Sources */,
+				280A35F725A2DE0C000B33EE /* UIPageControlVC.m in Sources */,
 				28DAEB2725999515007E7D6A /* ViewController.m in Sources */,
 				28DAEBD4259C6EB3007E7D6A /* MovieModel.m in Sources */,
 				28DAEB5925999B4D007E7D6A /* UILabelVC.m in Sources */,
@@ -385,6 +414,9 @@
 				28DAEB86259B1046007E7D6A /* UITabBarVC.m in Sources */,
 				28DAEBEB25A06C5A007E7D6A /* UISearchBarVC.m in Sources */,
 				28DAEB2425999515007E7D6A /* SceneDelegate.m in Sources */,
+				280A35F125A2DDD0000B33EE /* PageView.m in Sources */,
+				28927EF025A2C2D000E932B1 /* UIDatePickerVC.m in Sources */,
+				280A360925A2F8B0000B33EE /* UISegmentedControlVC.m in Sources */,
 				28DAEB5F2599CD6F007E7D6A /* UIPickerViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
