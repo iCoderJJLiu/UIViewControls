@@ -35,10 +35,13 @@ int nImage = 5;
     frame.size.height = frame.size.height / 5;
     
     self.pageController = [[UIPageControl alloc] initWithFrame:frame];
-    /** 非当前页的指示器颜色 */
+    
+    // 非当前页的指示器颜色
     self.pageController.pageIndicatorTintColor = [UIColor blueColor];
-    /** 当前页的指示器颜色 */
+    // 当前页的指示器颜色
     self.pageController.currentPageIndicatorTintColor = [UIColor greenColor];
+    
+//    self.pageController.backgroundColor = [UIColor redColor];
     
     [self.view insertSubview:self.pageController aboveSubview:self.pageView];
     
